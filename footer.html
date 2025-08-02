@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Website</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    /* CSS for footer */
+    .site-footer {
+      background-color: #000;
+      color: #fff;
+      padding: 50px 0;
+    }
+    .footer-icon {
+      color: #fff;
+    }
+    .footer-link li {
+      list-style: none;
+    }
+    .footer-link li a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .footer-link li a:hover {
+      color: #ccc;
+    }
+    .social-icon {
+      list-style: none;
+      padding: 0;
+    }
+    .social-icon li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+    .social-icon li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;
+    }
+    .social-icon li a:hover {
+      color: #ccc;
+    }
+    /* Animation */
+    @keyframes fade-up {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    [data-aos] {
+      opacity: 0;
+      transition-property: opacity, transform;
+      transition-duration: 1s;
+    }
+    [data-aos="fade-up"] {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  </style>
+</head>
+<body>
+
+<footer class="site-footer" data-aos="fade-up">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5 mx-lg-auto col-md-8 col-10">
+        <h1 class="text-white">Create <strong>Something awesome</strong> ..</h1>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <h4 class="my-4">Contact Info</h4>
+        <p class="mb-1">
+          <i class="fa fa-phone mr-2 footer-icon"></i> 
+          +91 7993643245
+        </p>
+        <p>
+          <a href="mailto:b29733040@gmail.com?subject=Digital%20Addressing%20System&body=Hey%0AWant%20to%20know%20more">
+            <i class="fa fa-envelope mr-2 footer-icon"></i>
+            somakanny@gmail.com
+          </a>
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 col-12">
+        <h4 class="my-4">Feedback Address</h4>
+        <p class="mb-1">
+          <i class="fa fa-home mr-2 footer-icon"></i> 
+          22n31a67f8@mrcet.ac.in - <a href="https://maps.app.goo.gl/YkpHXNGPVG15NHN4A">Malla reddy college of engineering and technology</a>
+        </p>
+      </div>
+      <div class="col-lg-4 mx-lg-auto text-center col-md-8 col-12">
+        <p class="copyright-text">Copyright &copy; Designed by Sharath</p>
+      </div>
+      <div class="col-lg-4 mx-lg-auto col-md-6 col-12">
+        <ul class="footer-link">
+          <li><a href="#">Stories</a></li>
+          <li><a href="#">Work with us</a></li>
+          <li><a href="#">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 mx-lg-auto col-md-6 col-12">
+        <ul class="social-icon">
+          <li><a href="https://www.instagram.com/sharath_soma?igsh=eW11ZGt0Ynp5MGs4" class="fa fa-instagram"></a></li>
+          <li><a href="https://github.com/Sharath-Soma" class="fa fa-github"></a></li>
+          <li><a href="https://wa.link/3tpixm" class="fa fa-whatsapp"></a></li>
+          <li><a href="https://www.linkedin.com/in/sharath-kumar-soma-23095827a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<div data-aos="fade-up"
+     data-aos-anchor-placement="center-center">
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
