@@ -100,11 +100,6 @@ Have suggestions or want to contribute? Feel free to open an issue or submit a p
 
 ---
 
-> Crafted with ❤️ by \[Your Name]
+> Crafted with ❤️ by \Sharath
 
-```
-
----
-
-Would you like me to generate a `.zip` including this README, `requirements.txt`, and `.gitignore`, so it’s ready for GitHub upload?
 ```
